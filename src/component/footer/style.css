@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  border-top: 1px solid gray;
+}
+.contact-link {
+  margin-left: 1rem;
+  text-decoration: none;
+}

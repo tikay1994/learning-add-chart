@@ -1,0 +1,30 @@
+.navbar-menu {
+    display: flex;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    padding: 0 8rem;
+}
+.group-dropdown ul {
+    padding-right: 2rem;
+    padding-left: 0;
+}
+
+.list-dropdown {
+    list-style-type: none;
+    display: none;
+    margin-top: 1rem;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.group-dropdown:hover .list-dropdown {
+    display: block;
+    position: absolute;
+}
+
+.list-dropdown li {
+    padding: 5px;
+}
+.list-dropdown li:hover {
+    background-color: gray;
+}
