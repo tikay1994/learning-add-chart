@@ -9,8 +9,8 @@ class TodoApp extends React.Component {
     this.state = {
       newItem: "",
       listItem: [
-        { title: "AAAAAAAAAAA", isComplete: true },
-        { title: "BBBBBBBBBBB", isComplete: false },
+        { title: "Play soccer", isComplete: true },
+        { title: "Go shopping", isComplete: false },
       ],
     };
     this.onKeyUp = this.onKeyUp.bind(this);
