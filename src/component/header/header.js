@@ -10,7 +10,7 @@ function Header(props) {
           </svg>
           <span>HYPER</span>
         </div>
-        <div>
+        <div className="search-header">
           <form>
             <input placeholder="Search..."></input>
             <button>Search</button>
@@ -18,7 +18,7 @@ function Header(props) {
         </div>
       </div>
       <div className="right-header">
-        <div>English</div>
+        <div className="language-select">English</div>
         <div>
           <svg className="icon-header" fill="#fff" viewBox="0 0 32 32">
             <path d="M27 23h-22l-3 3v1l1 1h9c0 2.209 1.791 4 4 4s4-1.791 4-4h9l1-1v-1l-3-3zM26 15c0-4.1-2.47-7.618-6-9.162v-1.838c0-2.209-1.791-4-4-4s-4 1.791-4 4v1.838c-3.53 1.544-6 5.062-6 9.162v7h20v-7zM14 4c0-1.104 0.896-2 2-2s2 0.896 2 2h-4z"></path>{" "}
@@ -37,7 +37,7 @@ function Header(props) {
               src="https://1.bp.blogspot.com/-BEkJFr5dyXk/XiL71_kJ24I/AAAAAAAAzXA/Ebs4Hpz-s4IG1ikawYrjuL9J8P4Mca0GwCLcBGAsYHQ/s1600/avatar-doi-tinh-yeu-10.jpg"
             ></img>
           </div>
-          <div>
+          <div className="user-header-information">
             <p className="user-name">Nguyen Van A</p>
             <p className="user-position">Customer</p>
           </div>

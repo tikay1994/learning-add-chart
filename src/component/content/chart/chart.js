@@ -90,7 +90,7 @@ function Chart(props) {
     <div>
       <div className="title-content">
         <span>CRM</span>
-        <span>Hyper > Dashboard > CRM</span>
+        <span className="title-content-link">Hyper > Dashboard > CRM</span>
       </div>
       <div className="total-chart">
         <div className="component-chart-item">
@@ -104,9 +104,9 @@ function Chart(props) {
               <span>3.27%</span>
             </div>
           </div>
-          <div className="chart-item">
+          <div>
             <Bar
-              width="150"
+              width="150px"
               data={chartData1}
               options={{
                 layout: {
@@ -132,9 +132,9 @@ function Chart(props) {
               <span>3.27%</span>
             </div>
           </div>
-          <div className="chart-item">
+          <div>
             <Line
-              width="150"
+              width="150px"
               data={chartData2}
               options={{
                 layout: {
@@ -160,9 +160,9 @@ function Chart(props) {
               <span>3.27%</span>
             </div>
           </div>
-          <div className="chart-item">
+          <div>
             <Bar
-              width="150"
+              width="150px"
               data={chartData3}
               options={{
                 layout: {
@@ -177,6 +177,7 @@ function Chart(props) {
             />
           </div>
         </div>
+
         <div className="component-chart-item">
           <div>
             <div>Campaign Sent</div>
@@ -188,9 +189,9 @@ function Chart(props) {
               <span>3.27%</span>
             </div>
           </div>
-          <div className="chart-item">
+          <div>
             <Bar
-              width="150"
+              width="150px"
               data={chartData4}
               options={{
                 layout: {
@@ -209,7 +210,7 @@ function Chart(props) {
       <div className="main-chart">
         <div className="main-chart-item">
           CAMPAIGNS
-          <Doughnut width="150" data={chartData5} options={{}} />A
+          <Doughnut data={chartData5} />A
         </div>
 
         <div className="main-chart-item">

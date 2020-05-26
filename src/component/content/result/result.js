@@ -5,7 +5,7 @@ function Result(props) {
   return (
     <div>
       <div className="rank-result">
-        <div className="rank-detail">
+        <div className="rank-detail rank-top-performing">
           TOP PERFORMING
           <div>
             <table>
@@ -54,7 +54,7 @@ function Result(props) {
             </table>
           </div>
         </div>
-        <div className="rank-detail">
+        <div className="rank-detail rank-recent-lead">
           RECENT LEADS
           <div className="rank-user">
             <div className="rank-user-info">
