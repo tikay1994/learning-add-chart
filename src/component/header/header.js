@@ -8,7 +8,7 @@ function Header(props) {
           <svg className="logo-header" fill="#fff" viewBox="0 0 32 32">
             <path d="M16 8c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM16 22c-3.313 0-6-2.687-6-6s2.687-6 6-6 6 2.687 6 6-2.687 6-6 6zM16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 28c-6.627 0-12-5.373-12-12s5.373-12 12-12 12 5.373 12 12-5.373 12-12 12zM16 13c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z"></path>
           </svg>
-          <span>HYPER</span>
+          <span className="brand-name">HYPER</span>
         </div>
         <div className="search-header">
           <form>
@@ -38,8 +38,8 @@ function Header(props) {
             ></img>
           </div>
           <div className="user-header-information">
-            <p className="user-name">Nguyen Van A</p>
-            <p className="user-position">Customer</p>
+            <div className="user-name">Nguyen Van A</div>
+            <div className="user-position">Customer</div>
           </div>
         </div>
       </div>

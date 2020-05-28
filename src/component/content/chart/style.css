@@ -11,13 +11,17 @@
 .component-chart-item {
   background-color: white;
   border-radius: 10px;
-  display: flex;
   padding: 1rem;
   margin: 1rem;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.chart-item {
-  width: 200px;
+
+.chart-item-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0;
 }
 
 .main-chart {
@@ -33,7 +37,15 @@
   margin: 1rem;
   height: auto;
 }
-
+.main-chart-item-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-chart-item-left div {
+  margin-top: 2rem;
+}
 .main-chart-right-value {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -55,6 +67,9 @@
   }
   .main-chart {
     padding: 0 1rem;
+  }
+  .component-chart-item {
+    grid-template-columns: 30% 70%;
   }
 }
 
